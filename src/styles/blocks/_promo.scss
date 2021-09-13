@@ -1,0 +1,57 @@
+.promo {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+.promo-inner {
+    @include container;
+}
+
+.logo {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+.promo-title {
+    padding-top: 320px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+}
+
+.promo-text {
+    color: white;
+    text-align: center;
+    font-family: 'open sans';
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 20px;
+    padding-bottom: 220px;
+}
+
+.scroll-link {
+    text-align: center;
+}
+
+.promo-scroll {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3.7px;
+    color: #fff;
+    &:hover {
+        color: $accent-blue;
+        transition: .3s;
+    }
+}

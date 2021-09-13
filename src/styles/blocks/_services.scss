@@ -1,0 +1,55 @@
+.services-inner {
+    @include container;
+}
+
+.services {
+    padding-bottom: 100px;
+}
+
+.services-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.services-title {
+    width: 33.33%;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: $accent-grey;
+&::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: $accent-blue;
+    margin-top: 10px;
+}
+}
+
+.services-text {
+    width: 33.33%;
+    font-family: 'Open Sans';
+     font-size: 15px;
+    line-height: 19px;
+}
+
+.btn {
+    text-align: center;
+    padding: 12px 30px;
+   font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+border: none;
+background-color: $accent-blue;
+color: #fff;
+}

@@ -1,0 +1,33 @@
+.respond-inner {
+    @include container;
+}
+
+.respond {
+    background-image: url('../images/getintouch.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.respond-content {
+    padding-top: 150px;
+}
+
+.respond-title {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+   color: $accent-grey;
+   text-align: center;
+}
+
+.button-respond {
+    text-align: center;
+    padding-bottom: 230px;
+}
+
+.respond-button {
+   margin-top: 30px;
+   
+}
