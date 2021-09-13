@@ -1,0 +1,38 @@
+.signup {
+    background-color: #171819;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.signup-inner {
+    @include container;
+}
+
+.signup-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-wrap {
+    display: flex;
+}
+
+.signup-title {
+    font-family: 'Open Sans';
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+    color: #ffff;
+}
+
+.signup-button {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.form-input {
+padding: 10px 5px;
+border: none;
+}
